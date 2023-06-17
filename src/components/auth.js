@@ -6,8 +6,8 @@ function Auth() {
         <div className="inputs">
             <h3>User Sign-Up</h3>
 
-            <input type="text" value={"Enter Email"}/>
-            <input type="password" value={"Enter Password"}/>
+            <input type="text" placeholder='Enter Email'/> 
+            <input type="password" placeholder='Enter Password'/>
 
         </div>
     </div>
