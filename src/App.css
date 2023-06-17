@@ -1,10 +1,24 @@
+body{
+  margin-top: 0px;
+}
+
 .App {
   text-align: center;
-  margin-top: 150px;
 }
 
 .auth{
-  background-image: url('https://www.pexels.com/photo/photo-of-snowy-field-3462588/');
+  background: url('../src/assets/pexels-simon-berger-3462588.jpg');
+  background-position: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.hed{
+  margin-bottom: 150px;
 }
 
 h2{
