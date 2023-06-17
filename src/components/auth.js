@@ -1,15 +1,17 @@
 import React from 'react'
+import '../App.css'
 
 function Auth() {
   return (
-    <div>
+    <div className='auth'>
+        <h2>User Sign-Up</h2>
         <div className="inputs">
-            <h3>User Sign-Up</h3>
 
             <input type="text" placeholder='Enter Email'/> 
             <input type="password" placeholder='Enter Password'/>
-
+            <button className="submit-btn">Sign-Up</button>
         </div>
+        
     </div>
   )
 }
