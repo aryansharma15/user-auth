@@ -91,6 +91,11 @@ input{
   transition: 150ms ease-in-out;
 }
 
+.signup>h2{
+  position: relative;
+  top: 50px;
+}
+
 .sig-inputs>h3{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
