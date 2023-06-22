@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../App.css'
 
 function Login() {
+
+
+  useEffect();
+
   return (
     <div className='auth'>
         <div className="hed">
@@ -12,6 +16,8 @@ function Login() {
                 <input type="password" placeholder='Enter Password'/>
                 <button className="submit-btn">Sign-Up</button>
             </div>
+
+            
 
         </div>
         

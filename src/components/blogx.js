@@ -38,6 +38,11 @@ function blogx() {
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
+            
+            {/* where */}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vitae et placeat sequi assumenda necessitatibus, exercitationem impedit, maiores pariatur eligendi rerum suscipit omnis! Ullam suscipit sint odio fugit, aliquid nulla.
+            Sint architecto incidunt, adipisci beatae consequatur, culpa, iste blanditiis expedita natus maxime reiciendis. Laudantium reprehenderit esse saepe, error itaque qui illo delectus, nam, cupiditate debitis alias temporibus veniam accusantium suscipit!
+            Delectus quod odio explicabo rem, odit asperiores quam officia, consequuntur amet fugiat reiciendis impedit. Totam labore molestias blanditiis quam numquam et facilis, pariatur quo assumenda, debitis inventore minima delectus. Reprehenderit.
         </div>
         </nav>
     </navbar>
