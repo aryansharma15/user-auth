@@ -14,7 +14,30 @@ function SignUp() {
 
     const data = JSON.stringify(formData);
 
-    fetch()
+    fetch(
+      "https://identitytoolkit.googleapis.com/v1/accounts:signInWithCustomToken?key=[API_KEY]",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: jsonData,
+      }
+    )
+      .then((response) => {
+        if (response.ok) {
+          return response.json();
+        } else {
+          throw new Error("Form submission failed.");
+        }
+      })
+      .then((data) => {
+        console.log(data);
+      })
+
+      .catch((error) => {
+        console.log(error);
+      });
 
   }
 
