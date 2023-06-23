@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navbar } from 'react-bootstrap'
 
-function Land() {
+function Dashboard() {
   return (
     <div>
         <Navbar>
@@ -11,4 +11,4 @@ function Land() {
   )
 }
 
-export default Land
+export default Dashboard
