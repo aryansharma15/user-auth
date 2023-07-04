@@ -7,7 +7,8 @@ import Landing from "./components/landing";
 function App() {
 	return (
 		<BrowserRouter>
-			<header></header>
+			{/* <header>navbar</header> */}
+			{/* no navbar here to show different states of signed in/out instead of the sign-up/login links?? */}
 
 			<div className="App">
 				<SignUp></SignUp>
