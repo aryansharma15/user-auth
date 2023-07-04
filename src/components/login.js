@@ -3,7 +3,6 @@ import '../App.css'
 
 function Login() {
 
-
   useEffect();
 
   return (
@@ -12,13 +11,12 @@ function Login() {
             <h2>Sign-In</h2>
             <div className="inputs">
 
-                <input type="text" placeholder='Enter Email'/> 
+                <input type="text" placeholder='Enter Email'/>
                 <input type="password" placeholder='Enter Password'/>
                 <button className="submit-btn">Sign-Up</button>
             </div>
 
             
-
         </div>
         
     </div>

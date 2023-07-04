@@ -21,7 +21,7 @@ function SignUp() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: jsonData,
+        // body: jsonData,
       }
     )
       .then((response) => {
