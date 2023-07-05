@@ -1,41 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "../App.css";
 
 function SignUp() {
-	const [formData, setFormData] = useState({
-		username: "",
-		email: "",
-		password: "",
-	});
-
-	const handleFormSubm = (event) => {
-		event.preventDefault();
-
-		const data = JSON.stringify(formData);
-
-		fetch("https://identitytoolkit.googleapis.com/v1/accounts:signInWithCustomToken?key=[API_KEY]", {
-			method: "POST",
-			headers: {
-				"Content-Type": "application/json",
-			},
-			// body: jsonData,
-		})
-			.then((response) => {
-				if (response.ok) {
-					return response.json();
-				} else {
-					throw new Error("Form submission failed.");
-				}
-			})
-			.then((data) => {
-				console.log(data);
-			})
-
-			.catch((error) => {
-				console.log(error);
-			});
-	};
-
 	return (
 		<div className="signup">
 			<h2>Sign Up</h2>

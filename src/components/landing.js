@@ -1,4 +1,5 @@
 import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
 
 function Landing() {
 	const text = "Welcome to the doorway to the Future!";
@@ -25,8 +26,12 @@ function Landing() {
 				</div>
 				<div className="buttons-div">
 					<h3>Get on board: </h3>
-					<button className="land-btn">Register</button>
-					<button className="land-btn">Sign-In</button>
+					<Link to="/register">
+						<button className="land-btn">Register</button>
+					</Link>
+					<Link to="/login">
+						<button className="land-btn">Sign-In</button>
+					</Link>
 				</div>
 			</div>
 		</>
