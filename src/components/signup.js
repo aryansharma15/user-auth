@@ -51,7 +51,7 @@ function SignUp() {
 				</form>
 			</div>
 
-			<h5>Already a member? Sign-in</h5>
+			<h3>Already a member? Sign-in</h3>
 		</div>
 	);
 }
