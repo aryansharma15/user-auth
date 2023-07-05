@@ -137,8 +137,36 @@ input{
 
   text-align: center;
 
-  margin-top: 50px;
+  margin: 100px 0;
+  width: 100vw;
 
+}
+
+.first-content p{
+  /* width: 300px; */
+  text-align: center;
+
+}
+
+.fc-head1{
+  width: 100vw;
+}
+
+.buttons-div{
+  width: 100vw;
+  text-align: center;
+}
+
+.buttons-div h3{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #933838;
+  
+}
+
+
+main{
+  margin-top: -50px;
 }
 
 .first-content h1{
