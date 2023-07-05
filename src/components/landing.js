@@ -25,8 +25,8 @@ function Landing() {
 				</div>
 				<div className="buttons-div">
 					<h3>Get on board: </h3>
-					<button>Register</button>
-					<button>Sign-In</button>
+					<button className="land-btn">Register</button>
+					<button className="land-btn">Sign-In</button>
 				</div>
 			</div>
 		</>
