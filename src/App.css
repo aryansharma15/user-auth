@@ -2,10 +2,6 @@ body{
   margin-top: 0px;
 }
 
-.App {
-  text-align: center;
-}
-
 .auth, .signup{
   background: url('../src/assets/pexels-simon-berger-3462588.jpg');
   background-position: 0px;
@@ -100,4 +96,32 @@ input{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.navbar{
+  background-color: #1d1d1d;
+  padding: 20px 40px;
 
+  display: flex;
+  justify-content: space-between;
+}
+
+.land-nav-a>a, .land-nav-b>a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 20px;
+
+  padding: 20px;
+}
+
+.land-nav-a{
+  margin-left: 0px;
+}
+
+.land-nav-a>a:hover, .land-nav-b>a:hover{
+  background-color: #000000;
+  transition: 200ms ease-in-out;
+}
+
+.land-nav-b{
+  position: relative;
+  left: 40px;
+}

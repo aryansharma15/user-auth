@@ -10,10 +10,7 @@ function App() {
 			{/* <header>navbar</header> */}
 			{/* no navbar here to show different states of signed in/out instead of the sign-up/login links?? */}
 
-			<div className="App">
-				<SignUp></SignUp>
-				{/* <Login></Login> */}
-			</div>
+			<div className="App"></div>
 			<main>
 				<Routes>
 					<Route path="/" element={<Landing />} />
