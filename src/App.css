@@ -28,6 +28,10 @@ body{
   text-align: center;
 }
 
+.hed>h3{
+  margin-top: 50px;
+}
+
 .hed>h3 a{
   
   color: #343139;
@@ -144,6 +148,7 @@ input{
 
 .navbar{
   background-color: #1d1d1d;
+  background: linear-gradient( #1d1d1d, #313131);
   padding: 20px 40px;
 
   display: flex;
@@ -162,8 +167,13 @@ input{
   margin-left: 100px;
 }
 
-.land-nav-a>a:hover, .land-nav-b>a:hover{
+.land-nav-a>a:hover{
   background-color: #000000;
+  transition: 400ms ease-in-out;
+}
+
+.land-nav-b>a:hover{
+  background-color: #0021c5;
   transition: 400ms ease-in-out;
 }
 
