@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import { Link } from "react-router-dom";
 
 function SignUp() {
 	return (
@@ -17,7 +18,9 @@ function SignUp() {
 				</form>
 			</div>
 
-			<h3>Already a member? Sign-in</h3>
+			<h3>
+				Already a member? <Link to="/login">Sign-in</Link>
+			</h3>
 		</div>
 	);
 }

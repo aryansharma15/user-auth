@@ -4,8 +4,10 @@ body{
 }
 
 .login, .signup{
-  background: url('../src/assets/pexels-simon-berger-3462588.jpg');
+  /* background: url('../src/assets/pexels-simon-berger-3462588.jpg'); */
+  background-color: #ac860a36;
   background-position: 0px;
+  
   
   display: flex;
   flex-direction: column;
@@ -13,6 +15,8 @@ body{
   align-items: center;
   height: 100vh;
   /* width: 99vw; */
+
+  transition: background 300ms ease-in 200ms;
 }
 
 .hed{
@@ -22,6 +26,21 @@ body{
 .hed h2{
   font-size: 28px;
   text-align: center;
+}
+
+.hed>h3 a{
+  
+  color: #343139;
+  text-decoration: none;
+  border-bottom: .125em solid #07ff77a7;
+  box-shadow: inset 0 -0.125em 0 #07ff77a7;
+  transition: box-shadow 270ms cubic-bezier(0.77, 0, 0.175, 1), color 270ms cubic-bezier(0.77, 0, 0.175, 1);
+  
+}
+  
+.hed>h3 a:hover{
+  box-shadow: inset 0 -1.125em 0 #07ff77a7;
+  color: #000000;  
 }
 
 .inputs{
@@ -97,11 +116,31 @@ input{
 .sig-inputs>h3{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 20px;
+
+}
+
+.signup>h3{
+  color: #000000;
 }
 
 .signup h5{
-  font-size: 18px;
+  font-size: 18px;  
 }
+
+.signup a{
+  color: #343139;
+    text-decoration: none;
+    border-bottom: .125em solid #07ff77a7;
+    box-shadow: inset 0 -0.125em 0 #07ff77a7;
+    transition: box-shadow 270ms cubic-bezier(0.77, 0, 0.175, 1), color 270ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.signup a:hover{
+  box-shadow: inset 0 -1.125em 0 #07ff77a7;
+  color: #000000;
+  
+}
+
 
 .navbar{
   background-color: #1d1d1d;
