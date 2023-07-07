@@ -19,8 +19,29 @@ body{
   transition: background 300ms ease-in 200ms;
 }
 
+.signup-boxed, .login-boxed{
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px 10px;
+  border-radius: 5px;
+
+  box-shadow: 10px 10px 15px #00000068;
+
+}
+
+.login-boxed{
+
+  padding: 10px 80px;
+
+}
+
+
 .hed{
-  margin-bottom: 150px;
+  /* margin-bottom: 150px; */
 }
 
 .hed h2{
@@ -30,6 +51,7 @@ body{
 
 .hed>h3{
   margin-top: 50px;
+  text-align: center;
 }
 
 .hed>h3 a{
@@ -75,6 +97,7 @@ body{
   box-shadow: 0px 0px 0px;
   transition: 150ms ease-in-out;
 }
+
 
 input{
   padding: 10px;

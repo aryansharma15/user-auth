@@ -27,24 +27,26 @@ function SignUp() {
 
 	return (
 		<div className="signup">
-			<h2>Sign Up</h2>
-			<div className="sig-inputs">
-				<h3>Enter Your Details...</h3>
-				<form action="" method="">
-					<input type="text" placeholder="Enter a Username" value={uname} onChange={(e) => setUname(e.target.value)} />
-					<input type="email" placeholder="Enter Email" value={email} onChange={(e) => setEmail(e.target.value)} />
-					<input type="password" placeholder="Enter Password" value={password} onChange={(e) => setPassword(e.target.value)} />
-					<input type="password" placeholder="Confirm Password" />
+			<div className="signup-boxed">
+				<h2>Sign Up</h2>
+				<div className="sig-inputs">
+					<h3>Enter Your Details...</h3>
+					<form action="" method="">
+						<input type="text" placeholder="Enter a Username" value={uname} onChange={(e) => setUname(e.target.value)} />
+						<input type="email" placeholder="Enter Email" value={email} onChange={(e) => setEmail(e.target.value)} />
+						<input type="password" placeholder="Enter Password" value={password} onChange={(e) => setPassword(e.target.value)} />
+						<input type="password" placeholder="Confirm Password" />
 
-					<button className="sub-sig" onClick={handleSignup}>
-						Sign Up
-					</button>
-				</form>
+						<button className="sub-sig" onClick={handleSignup}>
+							Sign Up
+						</button>
+					</form>
+				</div>
+
+				<h3>
+					Already a member? <Link to="/login">Sign-in</Link>
+				</h3>
 			</div>
-
-			<h3>
-				Already a member? <Link to="/login">Sign-in</Link>
-			</h3>
 		</div>
 	);
 }
