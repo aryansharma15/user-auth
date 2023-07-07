@@ -1,14 +1,11 @@
-import React from 'react'
-import { Navbar } from 'react-bootstrap'
+import React from "react";
 
 function Dashboard() {
-  return (
-    <div>
-        <Navbar>
-            
-        </Navbar>
-    </div>
-  )
+	return (
+		<div>
+			<div></div>
+		</div>
+	);
 }
 
-export default Dashboard
+export default Dashboard;
